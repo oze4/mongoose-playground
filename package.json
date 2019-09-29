@@ -1,0 +1,17 @@
+{
+  "name": "mongoose-playground",
+  "version": "1.0.0",
+  "description": "mongoose-playground",
+  "main": "index.js",
+  "author": "matt oestreich",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "mongoose": "^5.7.1",
+    "saslprep": "^1.0.3"
+  },
+  "scripts": {
+    "run:test": "node ./src/test.js"
+  }
+}
