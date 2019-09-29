@@ -7,9 +7,9 @@ const database = rootdb.useDb(process.env.DB_PLAYGROUND);
 const playground = database.model(database, UserSchema, process.env.COL_PLAYGROUND);
 
 playground.find({}, (err, res) => {
-    if(err) throw err;
+    if (err) throw err;
 
-    if(res) {
+    if (res) {
         console.log(res);
         database.close();
     }
